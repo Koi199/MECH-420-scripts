@@ -1,0 +1,64 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+*.dll
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Python-specific logs
+*.log
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Cache files
+*.cache
+*.pytest_cache/
+*.pyc
+*.pyo
+*.mypy_cache/
+*.hypothesis/
+*.coverage
+coverage.xml
+
+# Environment variables and configuration files
+.env
+.env.*
+
+# Exclude data files but allow specific types
+*.csv~
+*.xlsx~
+*.pdf~
+*.h5
+*.hdf5
+*.feather
+*.parquet
+*.pkl
+*.sav
+*.zip
+*.tar
+*.gz
+*.bz2
+*.xz
+*.npz
+*.npy
+
+# Allow specific file types
+!*.xlsx
+!*.pdf
+!*.csv
+
+# IDE-specific files (e.g., VS Code, PyCharm)
+.vscode/
+*.idea/
